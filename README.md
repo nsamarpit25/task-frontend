@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Management Application
+
+A modern task management application built with Next.js, React, and TypeScript. This application provides an intuitive interface for managing tasks, with features for creating, updating, and organizing your daily activities.
+
+## Features
+
+- Modern, responsive UI built with Next.js and Tailwind CSS
+- Type-safe development with TypeScript
+- Fast development with Turbopack
+- RESTful API integration with Axios
+- Real-time updates and seamless user experience
+
+## Tech Stack
+
+- **Frontend Framework**: Next.js 15.3.3
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **HTTP Client**: Axios
+- **Development Tools**: ESLint, Turbopack
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd task-frontend
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Starts the development server with Turbopack
+- `npm run build` - Creates a production build
+- `npm run start` - Runs the production build
+- `npm run lint` - Runs ESLint for code quality checks
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+task-frontend/
+├── src/              # Source files
+├── public/           # Static assets
+├── .next/            # Next.js build output
+├── node_modules/     # Dependencies
+└── package.json      # Project configuration
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Support
+
+For support, please open an issue in the GitHub repository or contact the development team.

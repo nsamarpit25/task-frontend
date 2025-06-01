@@ -8,8 +8,8 @@ import { AxiosError } from "axios";
 import Loader from '@/components/Loader';
 
 export default function LoginPage() {
-   const [email, setEmail] = useState("");
-   const [password, setPassword] = useState("");
+   const [email, setEmail] = useState("john.doe@company.com");
+   const [password, setPassword] = useState("password123");
    const [error, setError] = useState("");
    const [isLoading, setIsLoading] = useState(false);
    const router = useRouter();
